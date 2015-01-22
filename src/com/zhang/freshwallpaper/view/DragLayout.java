@@ -14,11 +14,10 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-
 import com.nineoldandroids.view.ViewHelper;
 import com.zhang.freshwallpaper.R;
 /**
- * 在ViewDragHelper下实现拖拽处理 
+ * 在ViewDragHelper下实现滑动
  * @author zhangyg
  *
  */

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <com.zhang.freshwallpaper.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@drawable/bg" >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -39,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="wyfmor@163.com"
+            android:text="http://blog.sina.com.cn/u/3621957370"
             android:textColor="#ffffff"
             android:textSize="15sp" />
 
@@ -104,5 +103,4 @@
             android:text="你的系统相册没有图片哦~"
             android:visibility="gone" />
     </com.zhang.freshwallpaper.view.MyRelativeLayout>
-
 </com.zhang.freshwallpaper.view.DragLayout>

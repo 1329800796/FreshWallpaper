@@ -1,11 +1,17 @@
 package com.zhang.freshwallpaper.view;
 
+import com.zhang.freshwallpaper.view.DragLayout.Status;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
-import com.zhang.freshwallpaper.view.DragLayout.Status;
 
+/**
+ * 自定义布局
+ * @author zhangyg
+ *
+ */
 public class MyRelativeLayout extends RelativeLayout {
     private DragLayout dl;
 
